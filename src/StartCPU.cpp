@@ -22,7 +22,7 @@ StartCPU::StartCPU(int someTime, Process * sameProcess, int nextBurst) : Event(s
 
 //////////////////////////////////////////////////////////////////////////////////
 /**
-* Schedules process to execute on CPU for a mximum of 4 time units.
+* Schedules process to execute on CPU for a maximum of 4 time units.
 * If the maximum is exceeded a Timeout event will be created, if not
 * a CompleteCPU event will be created
 */
